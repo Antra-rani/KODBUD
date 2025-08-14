@@ -9,7 +9,7 @@
 <body>
     <!--Navigation-->
     <nav class="navbar" id="navbar">
-        <div class="nav-cotainer">
+        <div class="nav-container">
             <div class="nav-name">
                 <h3>Antra Rani</h3>
             </div>
@@ -21,24 +21,27 @@
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
     <!--Hero Section-->
-        <section>
+        <section id="home" class="hero">
             <div class="container">
             <div class="hero-content">
                 <div class="hero-image">
-                    <div class="profile-placeholder">
-                        <span>AR</span>
-                    </div>
+                        <img src="Photo.png" alt="AR" class="profile-placeholder">
                 </div>
                 <div class="hero-text">
                     <h1 class="hero-title">Antra Rani</h1>
                     <h2 class="hero-subtitle">Web Developer</h2>
                     <p class="hero-tagline">Building innovative web solutions with modern technologies</p>
                     <div class="hero-buttons">
-                        <a href="#projects" class="btn btn--primary">View My Work</a>
-                        <a href="#contact" class="btn btn--outline">Get In Touch</a>
+                        <a href="#projects" class="btn">View My Work</a>
+                        <a href="#contact" class="btn">Get In Touch</a>
                     </div>
                 </div>
             </div>
@@ -46,51 +49,127 @@
         </section>
     <!--About Section-->
         <section id="about" class="about">
-            <div class="container">
-                <div class="section-header">
-                    <h2>About Me</h2>
-                    <p>Get to know more about my background and interests</p>
-                </div>
-                <div class="about-text">
-                    <p>I'm a passionate Web developer</p>
-                </div>
-            </div>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="bio">
+                Passionate Web development. Creating responsive, user-friendly websites and applications. 
+                Specializing in front-end development with expertise in JavaScript frameworks and modern CSS techniques. 
+                When I'm not coding, you can find me cycling, reading novels, or experimenting with some recipes.
+            </p>
+        </div>
         </section>
     <!--Education Section-->
         <section id="education" class="education">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Education</h2>
-                    <p>My academic journey and achievements</p>
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Bachelor's in Computer Application</h3>
+                        <p>Ranchi University | 2022-2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>Web Development Course</h3>
+                        <p>Apna College | 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>UI/UX Design Certification</h3>
+                        <p>Udemy | 2025</p>
+                    </div>
                 </div>
             </div>
+        </div>
         </section>
     <!--Skills Section-->
         <section id="skills" class="skills">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Skills & Technologies</h2>
-                    <p>Technologies and tools I work with</p>
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> HTML5 & CSS3</li>
+                        <li><i class="fas fa-check"></i> JavaScript</li>
+                        <li><i class="fas fa-check"></i> React.js</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-End</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> Node.js</li>
+                        <li><i class="fas fa-check"></i> Express</li>
+                        <li><i class="fas fa-check"></i> MongoDB</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Design</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-check"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check"></i> Figma</li>
+                        <li><i class="fas fa-check"></i> Photoshop</li>
+                    </ul>
                 </div>
             </div>
+        </div>
         </section>
     <!--Projects Section-->
         <section id="projects" class="projects">
             <div class="container">
-                <div class="section-header">
-                    <h2>Featured Projects</h2>
-                    <p>Some of my recent work and achievements</p>
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-info">
+                        <h3>Spotify Clone</h3>
+                        <p>A clone of Spotify App with basic featues made with HTML, CSS.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Antra-rani/Spotify-clone">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Simon Say Game</h3>
+                        <p>A fun game named as 'Simon Says' which is a type of memory game to remember what color is called out for.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Antra-rani/Spotify-clone">Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gallery</h3>
+                        <p>This mini project is a front page of a gallery. It is a photography webpage with a working sidebar.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Antra-rani/Mini-project">Code</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     <!--Contact Section-->
         <section id="contact" class="contact">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Get In Touch</h2>
-                    <p>Let's discuss your next project or collaboration</p>
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
         </section>
     <!--Footer-->
          <footer class="footer">
@@ -99,11 +178,12 @@
                 <p>&copy; 2025 Antra Rani. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="antrarani21@gmail.com" >Email</a>
-                    <a href="#" >LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/antrarani/" >LinkedIn</a>
                     <a href="https://github.com/Antra-rani" >GitHub</a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
